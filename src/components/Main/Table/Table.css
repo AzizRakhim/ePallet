@@ -1,0 +1,102 @@
+.table{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  width: 75%;
+  margin-bottom: 0;
+}
+
+.table__item:not(:last-child) {
+  padding: 0;
+  margin-right: 70px;
+}
+
+.table__item{
+  padding-bottom: 10px !important;
+}
+
+.table__link {
+  padding: 0 !important ;
+  text-decoration: none;
+  color: rgb(201, 201, 201);
+}
+
+.table__item.tableActive{
+  border-bottom: 2px solid blue;
+}
+
+.table__item.tableActive .table__link {
+  color: #000;
+  font-weight: 600;
+}
+
+.table__item:hover{
+  border-bottom: 2px solid blue;
+}
+
+.table__item:hover .table__link{
+  color: black;
+  font-weight: 600;
+}
+
+.table__box {
+  width: 75%;
+}
+
+.table__box-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+}
+.table__box-inner2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+.abs {
+  font-weight: 600;
+}
+.table__list2 {
+  width: 400px;
+  display: flex;
+  align-items: center; 
+  justify-content:space-between;
+  padding: 0 !important;
+}
+
+
+.table__val2 {
+  display: block;
+  padding-top: 10px;
+  color: rgb(201, 201, 201);
+}
+
+.table__text2 {
+  width: 910px;
+  font-size: 13px;
+}
+
+.tabel__text3 {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+} 
+
+.table__title2{
+  margin-bottom: 0;
+}
+
+.thin{
+  font-weight: 400;
+}

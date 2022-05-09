@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*::before{
+  margin: 0;
+  padding: 0;
+}
+
+*::after{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  display: flex;
+  flex-flow: column wrap;
+  min-height: 100vh;
+  font-family: "Arial", san-serif;
+  background-color: #fff;
+}
+
+.container{
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 20px;
+  margin: 0 auto;
+}

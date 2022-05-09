@@ -1,0 +1,186 @@
+.top-header{
+  background-color: blue;
+  padding: 10px 0;
+}
+
+#lang,
+#location{
+  border: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+option{
+  background-color: blue;
+}
+
+#lang{
+  margin-right: 50px;
+}
+
+.bx-map{
+  color: #fff;
+  font-size: 20px;
+}
+
+.top-header__link-phone{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 40px;
+  transition: all 0.3s ease;
+}
+
+.top-header__link-phone:hover{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.top-header__link{
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+}
+
+.top-header__link:hover{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+/* Top-header end */
+/* Header start */
+
+.header{
+  padding: 30px 0;
+}
+
+.header__logo-box{
+  margin-right: 35px;
+}
+
+.header__logo-link{
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+}
+
+.header__logo-link img{
+  width: 100%;
+  height: 100%;
+}
+
+.header__search-wrapper{
+  min-width: 600px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.bx-search{
+  margin-right: 10px;
+}
+
+.header__input{
+  display: flex;
+  flex-grow: 1;
+  border: none;
+  border-right: 1px solid #ccc;
+}
+
+.header__input:focus{
+  outline: none;
+}
+
+#category{
+  border: none;
+  padding-left: 10px;
+}
+
+#category option{
+  background-color: #fff;
+}
+
+#category:focus{
+  outline: none;
+}
+
+.header__list{
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__item:not(:first-child){
+  margin-left: 40px;
+}
+
+.header__link{
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.header__link .bx{
+  font-size: 20px;
+  margin-right: 7px;
+}
+
+/* Header end */
+/* Navigation start */
+
+.navigation__list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation__item:not(:last-child){
+  margin-right: 65px;
+}
+
+.navigation__link{
+  text-transform: capitalize;
+  text-decoration: none;
+  color: rgb(122, 117, 117);
+  transition: all 0.3s ease;
+}
+
+.navigation__link--active{
+  font-weight: bold;
+  color: #000;
+}
+
+.navigation__link:hover{
+  font-weight: bold;
+  color: #000;
+}
+
+/* Navigation end */
+/* Breadcrumb start */
+
+.breadcrumb{
+  margin: 0;
+  padding: 10px 0;
+}
+
+.breadcrumb-link{
+  text-decoration: none;
+}
+
+.breadcrumb-item.active{
+  color: blue;
+}
+
+.breadcrumb-back-link{
+  text-decoration: none;
+  color: rgb(63, 62, 62);
+}
+
+.breadcrumb-back-link .bx{
+  margin-right: 10px;
+  font-size: 25px;
+}
