@@ -32,8 +32,7 @@
 }
 
 .table__item.tableActive .table__link {
-  color: #000;
-  font-weight: 600;
+  -webkit-text-stroke: 1px #000;
 }
 
 .table__item:hover{
@@ -41,8 +40,7 @@
 }
 
 .table__item:hover .table__link{
-  color: black;
-  font-weight: 600;
+  -webkit-text-stroke: 1px #000;
 }
 
 .table__box {

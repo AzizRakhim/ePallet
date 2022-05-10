@@ -150,13 +150,11 @@ option{
 }
 
 .navigation__link--active{
-  font-weight: bold;
-  color: #000;
+  -webkit-text-stroke: 1px #000;
 }
 
 .navigation__link:hover{
-  font-weight: bold;
-  color: #000;
+  -webkit-text-stroke: 1px #000;
 }
 
 /* Navigation end */
